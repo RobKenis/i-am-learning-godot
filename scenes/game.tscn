@@ -317,6 +317,18 @@ position = Vector2(584, 40)
 [node name="Coin6" parent="Coins" instance=ExtResource("4_ijbox")]
 position = Vector2(168, -104)
 
+[node name="Coin7" parent="Coins" instance=ExtResource("4_ijbox")]
+position = Vector2(600, -121)
+
+[node name="Coin8" parent="Coins" instance=ExtResource("4_ijbox")]
+position = Vector2(1096, 8)
+
+[node name="Coin9" parent="Coins" instance=ExtResource("4_ijbox")]
+position = Vector2(874, 8)
+
+[node name="Coin10" parent="Coins" instance=ExtResource("4_ijbox")]
+position = Vector2(616, 72)
+
 [node name="Platforms" type="Node" parent="."]
 
 [node name="Platform" parent="Platforms" instance=ExtResource("3_32f06")]
@@ -357,15 +369,3 @@ theme_override_colors/font_color = Color(0.0117189, 0.148989, 0.348791, 1)
 theme_override_fonts/font = ExtResource("7_dx0y0")
 theme_override_font_sizes/font_size = 8
 text = "Space to jump."
-
-[node name="Coin" parent="." instance=ExtResource("4_ijbox")]
-position = Vector2(600, -121)
-
-[node name="Coin2" parent="." instance=ExtResource("4_ijbox")]
-position = Vector2(1096, 8)
-
-[node name="Coin3" parent="." instance=ExtResource("4_ijbox")]
-position = Vector2(874, 8)
-
-[node name="Coin4" parent="." instance=ExtResource("4_ijbox")]
-position = Vector2(616, 72)
