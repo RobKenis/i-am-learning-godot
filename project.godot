@@ -13,7 +13,10 @@ config_version=5
 config/name="i-am-learning-godot"
 run/main_scene="res://scenes/game.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
+boot_splash/bg_color=Color(0.847059, 0.960784, 0.964706, 1)
+boot_splash/image="res://single_bee_with_bg.png"
 config/icon="res://icon.svg"
+boot_splash/minimum_display_time=1000
 
 [autoload]
 
